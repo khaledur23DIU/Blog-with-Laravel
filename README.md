@@ -8,9 +8,10 @@
 3. cp .env.example .env  
 	@ Now configure database in .env file. 
 4. php artisan key:generate
-5. php artisa migrate
-6. php artisan db:seed   (if you want dummy data as example)
-7. php artisan serve
+5. php artisan storage:link
+6. php artisa migrate
+7. php artisan db:seed   (if you want dummy data as example)
+8. php artisan serve
 
 # You need to setup some APIs Driver's credentials in .env file
 "# Blog-with-Laravel" 
